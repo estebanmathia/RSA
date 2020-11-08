@@ -1,8 +1,6 @@
-
-
-
-
-
+import math
+from random import *
+from tqdm import tqdm
 
 def Chiffrement(e,n,message):
 
@@ -36,22 +34,6 @@ def Chiffrement(e,n,message):
 	return messagechiffre
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def Dechiffrement(d,n,messagechiffre):
 
 
@@ -77,11 +59,6 @@ def Dechiffrement(d,n,messagechiffre):
 	return str(message)
 
 
-
-
-import math
-from random import *
-from tqdm import tqdm
 def Cle(ordredegrandeur):
 
 
